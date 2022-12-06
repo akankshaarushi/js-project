@@ -1,0 +1,121 @@
+* {
+              margin: 0;
+              padding: 0;
+          }
+          
+          .main-con {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 100%;
+              height: 100vh;
+              border: 5px solid rgb(102, 102, 156);
+              color: rgb(255, 255, 255);
+              background-color:black;
+          }
+          
+          #navigation {
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+          }
+          
+          .sub-con{
+              width: 310px;
+              background: rgb(7, 83, 110);
+              height: 400px;
+              border-radius: 10px;
+              padding: 30px;
+              border: 5px solid rgb(20, 84, 104);
+          }
+          
+          h1 {
+              font-size: 35px;
+              text-align: center;
+              padding-bottom: 28px;
+          }
+          
+          input {
+              width: 263px;
+              height: 30px;
+              border-radius: 10px;
+              background-color: rgb(206, 232, 241);
+              border: 2px solid black;
+          
+          }
+          
+          .input {
+              text-align: center;
+              font-weight: bold;
+          }
+          
+          .output {
+              padding: 16px;
+              margin: 10px;
+          }
+          
+          button {
+              width: 65px;
+              height: 31px;
+              font-weight: bold;
+              margin-right: 10px;
+              border-radius: 4px;
+              background-color: rgb(206, 232, 241);
+              border: 2px solid rgb(6, 41, 54);
+          }
+          
+          .convert {
+              padding-left: 45px
+          }
+          
+          .form-control {
+              height: 33px;
+              border-radius: 10px;
+              background-color: rgb(206, 232, 241);
+              border: 2px solid rgb(0, 0, 0);
+          }
+          
+          #unitnav {
+              height: 45px;
+          
+          }
+          
+          .sub-con {
+              height: 400px;
+              width: 310px;
+              background-color: rgb(4, 70, 73);
+              animation-name: shine;
+              animation-duration: 5s;
+              animation-iteration-count: infinite;
+          }
+          
+          #out{
+              text-transform: uppercase;
+              text-align: center;
+          }
+          
+          #in{
+              text-transform: uppercase;
+              text-align: center;
+          
+          }
+          
+          @keyframes shine {
+          
+              0%,
+              100% {
+                  box-shadow: 0px 0px 20px -1px rgb(51, 177, 166)
+              }
+          
+              20% {
+                  box-shadow: 0px 0px 20px -1px rgb(55, 158, 60)
+              }
+          
+              50% {
+                  box-shadow: 0px 0px 20px -1px rgb(27, 110, 79)
+              }
+          
+              70% {
+                  box-shadow: 0px 0px 20px -1px rgb(158, 27, 114);
+              }
+          }
